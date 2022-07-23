@@ -5,8 +5,6 @@ import { Button, Form, Segment } from "semantic-ui-react";
 import LoadingComponent from "../../../App/layout/LoadingComponent";
 import { useStore } from "../../../App/stores/store";
 import { v4 as uuid } from "uuid";
-import { create } from "domain";
-
 export default observer(function ActivityForm() {
   const history = useHistory();
   const { activityStore } = useStore();
