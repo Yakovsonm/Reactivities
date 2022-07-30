@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import "react-calendar/dist/Calendar.css";
 import "./App/layout/styles.css";
 import "react-toastify/dist/ReactToastify.min.css";
+import "react-datepicker/dist/react-datepicker.css";
 import App from "./App/layout/App";
 import reportWebVitals from "./reportWebVitals";
 import { store, StoreContext } from "./App/stores/store";
